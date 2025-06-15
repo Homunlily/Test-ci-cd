@@ -1,0 +1,32 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Playwright test results
+test-results/
+playwright-report/
+
+# VSCode settings (tuỳ chọn)
+.vscode/
+
+# Environment variables
+.env
+.env.local
+
+# Coverage reports
+coverage/
+
+# Optional: output from playwright traces or videos
+trace.zip
+*.webm
