@@ -8,7 +8,7 @@ test.use({
   viewport: null,
   launchOptions: {
     args: ['--start-maximized'],
-    headless: false,
+    headless: true,
   }
 });
 test('Login successfully using Page Object Model', async ({ page }) => {
